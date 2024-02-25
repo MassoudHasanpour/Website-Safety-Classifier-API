@@ -1,0 +1,28 @@
+<!doctype html>
+<style>
+body {
+  background-color: #F4ECF7;
+}
+
+h1 {
+  color: black; 
+  background-color:#F5B7B1 ;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 12px;
+}
+
+</style>
+<h1>Labels predicted by our AI model for your data are as below,</h1></br></br>
+ <center> <table border = 1>
+    {% for key, value in dicts.items() %}
+
+    <tr>
+       <th> {{ key }} </th>
+       <td> {{ value }} </td>
+    </tr></center>
+    {% endfor %}
+ </table>

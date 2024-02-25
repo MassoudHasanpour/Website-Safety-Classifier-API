@@ -1,0 +1,122 @@
+<html>
+<body style="background-color:#EBDEF0;">
+<center><p><b>Please enter the value of the parameters below for our AI model</b></p></center>
+
+<form action="{{ url_for("LabelPred_FunSp")}}" method="post">
+
+<table style="width:100%;text-align:left;background-color:#9FE2BF">
+  <tr>
+  <td>
+<label for="Host">Host:</label></br>
+<input type="text" id="Host" name="Par1" placeholder="Host"></br></td>
+<td>
+<label for="Alltime">Alltime:</label></br>
+<input type="text" id="Alltime" name="Par2" placeholder="Alltime"></br>
+</td> 
+<td>
+
+<label for="Disavowed">Disavowed:</label></br>
+<input type="text" id="Disavowed" name="Par3" placeholder="Disavowed"></br>
+</td>
+<td>
+<label for="Removed">Removed:</label></br>
+<input type="text" id="Removed" name="Par4" placeholder="Removed"></br></td>
+</tr>
+<tr>
+<td>
+<label for="Accepted">Accepted:</label></br>
+<input type="text" id="Accepted" name="Par5" placeholder="Accepted"></td>
+<td>
+<label for="ExtBackLinks">ExtBackLinks:</label></br>
+<input type="text" id="ExtBackLinks" name="Par6" placeholder="ExtBackLinks"></br></td></br>
+
+  <td>
+<label for="RefDomains">RefDomains:</label></br>
+<input type="text" id="RefDomains" name="Par7" placeholder="RefDomains"></br></td> 
+<td>
+
+<label for="RefIPs">RefIPs:</label></br>
+<input type="text" id="RefIPs" name="Par8" placeholder="RefIPs"></td> 
+  </tr>
+<tr>
+  <td>
+  
+<label for="RefSubNets">RefSubNets:</label></br>
+<input type="text" id="RefSubNets" name="Par9" placeholder="RefSubNets"></td>
+<td>
+<label for="RefDomainsEDU">RefDomainsEDU:</label></br>
+<input type="text" id="RefDomainsEDU" name="Par10" placeholder="RefDomainsEDU"></td>
+
+  <td>
+<label for="ExtBackLinksEDU">ExtBackLinksEDU:</label></br>
+<input type="text" id="ExtBackLinksEDU" name="Par11" placeholder="ExtBackLinksEDU"></td>
+<td>
+<label for="RefDomainsGOV">RefDomainsGOV:</label></br>
+<input type="text" id="RefDomainsGOV" name="Par12" placeholder="RefDomainsGOV"></td>
+</tr>
+<tr></br>
+  <td>
+<label for="ExtBackLinksGOV">ExtBackLinksGOV:</label></br>
+<input type="text" id="ExtBackLinksGOV" name="Par13" placeholder="ExtBackLinksGOV"> </td>
+
+<td><label for="RefDomainsEDU_Exact">RefDomainsEDU_Exact:</label></br>
+<input type="text" id="RefDomainsEDU_Exact" name="Par14" placeholder="RefDomainsEDU_Exact"></td>
+
+  <td>
+<label for="LastCrawlResult">LastCrawlResult:</label></br>
+<input type="text" id="LastCrawlResult" name="Par15" placeholder="LastCrawlResult"> </td>
+<td>
+<label for="RedirectFlag">RedirectFlag:</label></br>
+<input type="text" id="RedirectFlag" name="Par16" placeholder="RedirectFlag"></td>
+</tr>
+<tr>
+  <td>
+<label for="Title">Title:</label></br>
+<input type="text" id="Title" name="Par17" placeholder="Title"></td>
+
+<td>
+<label for="RedirectTo">RedirectTo:</label></br>
+<input type="text" id="RedirectTo" name="Par18" placeholder="RedirectTo"></td>
+
+  <td>
+<label for="Language">Language:</label></br>
+<input type="text" id="Language" name="Par19" placeholder="Language"> </td>
+ <td>
+<label for="LanguageDesc">LanguageDesc:</label></br>
+<input type="text" id="LanguageDesc" name="Par20" placeholder="LanguageDesc"> </td>
+</tr>
+<tr>
+  <td>
+<label for="LanguageConfidence">LanguageConfidence:</label></br>
+<input type="text" id="LanguageConfidence" name="Par21" placeholder="LanguageConfidence"> </td>
+ <td>
+<label for="LanguagePageRatios">LanguagePageRatios:</label></br>
+<input type="text" id="LanguagePageRatios" name="Par22" placeholder="LanguagePageRatios"> </td>
+
+  <td>
+<label for="CitationFlow">CitationFlow:</label></br>
+<input type="text" id="CitationFlow" name="Par23" placeholder="CitationFlow"></td>
+<td>
+<label for="TrustFlow">TrustFlow:</label></br>
+<input type="text" id="TrustFlow" name="Par24" placeholder="TrustFlow">
+</td>
+</tr>
+<tr>
+  <td>
+<label for="TopicalTrustFlow_Topic">TopicalTrustFlow_Topic:</label></br>
+<input type="text" id="TopicalTrustFlow_Topic" name="Par25" placeholder="TopicalTrustFlow_Topic"></td>
+<td>
+<label for="TopicalTrustFlow_Value">TopicalTrustFlow_Value:</label></br>
+<input type="text" id="TopicalTrustFlow_Value" name="Par26" placeholder="TopicalTrustFlow_Value">
+</td>
+</table>
+<br><br><br> 
+
+
+<center><button type="submit"; style="background-color:orange; height:40px; width:110px" ><b>Submit</b></button></center>
+</form>
+
+
+</body>
+
+</html>
