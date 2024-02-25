@@ -1,1 +1,1 @@
-This repository includes APIs, both back and front-end sides, that classify websites using NLP techniques and deep neural networks. Please note that your input data should have a structure like the CSV file. 
+This repository includes APIs, both back and front-end sides, that classify websites using NLP techniques and deep neural networks. Please note that your input data should have a structure like the xlsx file. 
